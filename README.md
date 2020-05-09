@@ -5,7 +5,7 @@
 You can install the package via composer:
 
 ```bash
-composer require ahmad/calmoji
+composer require farzanahmad/calmoji
 ```
 
 ## Usage
