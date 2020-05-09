@@ -1,0 +1,31 @@
+{
+    "name": "ahmad/calmoji",
+    "description": "Emoji Calculator",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ahmad Farzan",
+            "email": "contact@farzanahmad.com"
+        }
+    ],
+    "require": {
+        "php": ">=7",
+        "illuminate/support": "^6.0|^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ahmad\\Calmoji\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ahmad\\Calmoji\\CalmojiServiceProvider"
+            ],
+            "aliases": {
+                "Calmoji": "Ahmad\\Calmoji\\CalmojiFacade"
+            }
+        }
+    }
+}
